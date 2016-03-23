@@ -1,0 +1,16 @@
+div.dice{
+	float:left;
+	background:#F5F5F5;
+	border:#999 1px solid;
+	padding:10px;
+	font-size:50px;
+	text-align:center;
+    width: 100px;
+	height: 100px;
+	margin: 10px;
+}
+
+.center{  
+	margin-top: 10px;
+	text-align: center;
+}
