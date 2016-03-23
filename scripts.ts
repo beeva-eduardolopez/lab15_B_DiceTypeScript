@@ -15,6 +15,7 @@ class Dice {
         });
         document.getElementById('dices-container').appendChild(square);
         var number = Math.floor(Math.random() * 5) + 1;
+        this.value = number.toString();
         document.getElementById(square.id).innerText = number.toString();
     }
     roll() {
